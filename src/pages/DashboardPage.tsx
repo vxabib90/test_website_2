@@ -134,7 +134,7 @@ export default function DashboardPage() {
       <div className="mb-6 flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-slate-900">Dashboard</h1>
-          <p className="mt-1 text-sm text-slate-500">Обзор тестов и результатов проверки знаний</p>
+          <p className="mt-1 text-sm text-slate-500">Обзор тестов и результатов проверки знаний сотрудников</p>
         </div>
         <button onClick={() => navigate('/tests/new')} className="btn-primary">
           <Plus className="h-4 w-4" />
